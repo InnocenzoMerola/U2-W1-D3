@@ -6,12 +6,56 @@
 
 header {
   display: flex;
+  justify-content: center;
+  color: #742305;
 }
-/* 
-nav {
-  display: flex;
-} */
 
-li {
-  list-style: none;
+nav {
+  background-color: antiquewhite;
+  width: 80%;
+  min-width: 300px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10em;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav * {
+  margin: 10px;
+  background-color: #ffdf7e;
+  border-radius: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .item {
+  flex: 20px;
+  height: 50px;
+}
+
+nav .bigBox {
+  flex: 10em;
+  height: 100px;
+  display: flex;
+  padding: 20px;
+}
+
+.bigBox img {
+  flex: 20px;
+  height: 60px;
+}
+
+.bigBox .shopping {
+  flex: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 882px) {
+  nav {
+    width: 100%;
+  }
 }
