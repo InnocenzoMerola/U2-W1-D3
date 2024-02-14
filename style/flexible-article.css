@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-main {
-  /* display: flex; */
-}
-
 .container {
   display: flex;
   background-color: antiquewhite;
