@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  /* display: flex; */
+}
+
+.container {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.imgDiv {
+  width: 50%;
+  margin-right: 15px;
+}
+.imgDiv img {
+  width: -webkit-fill-available;
+}
+
+.text {
+  width: 50%;
+  color: #64280a;
+}
+
+.text h2 {
+  font-size: 20px;
+}
+
+.text p {
+  font-size: 13px;
+}
+
+@media screen and(min-width: 450px) and (max-width: 773px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .imgDiv {
+    width: unset;
+    margin-right: 0;
+  }
+
+  .text {
+    width: unset;
+  }
+  .text h2 {
+    font-size: 25px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+}
+/* 
+nav {
+  display: flex;
+} */
+
+li {
+  list-style: none;
+}
